@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Button } from 'core';
+import { Button } from 'test-core-delete';
 
 const meta: Meta<typeof Button> = {
   title: 'Core/Button',
