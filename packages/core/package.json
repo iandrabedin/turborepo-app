@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@jest/globals": "^29.6.4",
+    "@jest/types": "^29.6.3",
     "@turbo/gen": "^1.10.13",
     "@types/node": "^20.5.2",
     "@types/react": "^18.2.21",
