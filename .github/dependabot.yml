@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" #based on the docs, this value also works for pnpm
+    directory: "/"
+    schedule:
+      interval: "monthly"
+
+  - package-ecosystem: "npm"
+    directory: "/packages/*"
+    schedule:
+      interval: "monthly"
+
+  - package-ecosystem: "npm"
+    directory: "/apps/*"
+    schedule:
+      interval: "monthly"
