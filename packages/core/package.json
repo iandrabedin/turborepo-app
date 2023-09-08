@@ -1,5 +1,5 @@
 {
-  "name": "test-core-delete",
+  "name": "cape-core-test",
   "version": "0.1.0",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
