@@ -3,7 +3,7 @@ interface ButtonProps {
    * @deprecated The prop primary will be remove in version 1.0. Use variant instead.
    */
   primary?: boolean;
-  variant?: 'primary' | 'secondary'
+  variant?: 'primary' | 'secondary' | 'tertiary'
   size?: "small" | "large";
   label?: string;
 }
