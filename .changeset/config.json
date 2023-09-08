@@ -6,6 +6,7 @@
       "repo": "brionmario/changesets-mono-repo"
     }
   ],
+  "title": "chore: release packages",
   "commit": false,
   "fixed": [],
   "linked": [],
