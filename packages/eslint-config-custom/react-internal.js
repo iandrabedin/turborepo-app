@@ -31,7 +31,7 @@ module.exports = {
       },
     },
   },
-  ignorePatterns: ["node_modules/", "dist/", ".eslintrc.cjs"],
+  ignorePatterns: ["node_modules/", "dist/", ".eslintrc.cjs", "CHANGELOG.md"],
 
   rules: {
     // add specific rules configurations here
