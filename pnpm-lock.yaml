@@ -32,15 +32,15 @@ importers:
 
   apps/docs:
     dependencies:
-      cape-core-test:
-        specifier: workspace:*
-        version: link:../../packages/core
       react:
         specifier: ^18.2.0
         version: 18.2.0
       react-dom:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
+      test-core-delete:
+        specifier: workspace:*
+        version: link:../../packages/core
     devDependencies:
       '@storybook/addon-essentials':
         specifier: ^7.4.0
