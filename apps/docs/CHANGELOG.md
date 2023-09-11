@@ -1,5 +1,14 @@
 # docs
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies [597c98e]
+- Updated dependencies [cfe9a24]
+- Updated dependencies [8f40fac]
+  - test-core-delete@1.0.0
+
 ## 0.0.1
 
 ### Patch Changes
