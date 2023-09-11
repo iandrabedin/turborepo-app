@@ -12,7 +12,7 @@ export function Button({
   return (
     <button
       style={{
-        backgroundColor: variant === 'primary' ? "red" : "blue",
+        backgroundColor: variant === 'primary' ? "green" : "blue",
         fontSize: size === "large" ? "24px" : "14px",
       }}
     >
