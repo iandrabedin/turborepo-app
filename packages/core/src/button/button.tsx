@@ -1,18 +1,23 @@
 interface ButtonProps {
-  variant?: 'primary' | 'secondary' | 'tertiary'
+  /**
+   * @deprecated The prop primary will be remove in version 1.0. Use variant instead.
+   */
+  primary?: boolean;
+  variant?: "primary" | "secondary" | "tertiary";
   size?: "small" | "large";
   label?: string;
 }
 
 export function Button({
-  variant = 'primary',
+  primary = false,
+  variant = "primary",
   label = "Boop",
   size = "small",
 }: ButtonProps) {
   return (
     <button
       style={{
-        backgroundColor: variant === 'primary' ? "green" : "red",
+        backgroundColor: primary || variant === "primary" ? "red" : "blue",
         fontSize: size === "large" ? "24px" : "14px",
       }}
     >
