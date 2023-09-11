@@ -1,7 +1,6 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
   "changelog": "@changesets/cli/changelog",
-  "title": "ci(changesets): release packages",
   "commit": false,
   "fixed": [],
   "linked": [],
