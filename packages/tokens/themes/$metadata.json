@@ -1,0 +1,14 @@
+{
+  "tokenSetOrder": [
+    "Core",
+    "Ocean Blue Light",
+    "Ocean Blue Dark",
+    "Deep Purple Light",
+    "Panda Pink Light",
+    "Hero Red Light",
+    "backofficeGlobal",
+    "vendorGlobal",
+    "dhGlobal",
+    "entityColors"
+  ]
+}
