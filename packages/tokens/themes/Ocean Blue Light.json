@@ -1,0 +1,697 @@
+{
+  "text": {
+    "color": {
+      "primary": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "Used for the primary headers and long text"
+      },
+      "secondary": {
+        "value": "{color.grey.60}",
+        "type": "color",
+        "description": "Used for displaying less prominant copy"
+      },
+      "disabled": {
+        "value": "{color.grey.30}",
+        "type": "color",
+        "description": "Used for displaying short text on disabled elements"
+      },
+      "inverse": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "For texts over opposite-contrast backgrounds, such as dark backgrounds"
+      },
+      "branded": {
+        "value": "{color.blue.60}",
+        "type": "color",
+        "description": "Theme accent color which is used for enabled and selected states for text "
+      },
+      "onbranded": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for texts on surfaces using the theme accent color"
+      },
+      "danger": {
+        "value": "{color.red.60}",
+        "type": "color",
+        "description": "Used for short labels to indicate danger or error"
+      },
+      "ondanger": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for the texts on surfaces which indicate danger or error"
+      },
+      "success": {
+        "value": "{color.green.80}",
+        "type": "color",
+        "description": "Used for short labels to indicate a postive outcome or active status"
+      },
+      "onsuccess": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "Used for the texts on surfaces which indicate success"
+      },
+      "info": {
+        "value": "{color.blue.40}",
+        "type": "color",
+        "description": "Used for short labels to indicate an informative message or status"
+      },
+      "oninfo": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for the texts on surfaces which indicate an information"
+      },
+      "onwarning": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "Used for the texts on surfaces which indicate warning"
+      },
+      "onneutral": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for the texts on surfaces which indicate a neutral state"
+      }
+    }
+  },
+  "action": {
+    "color": {
+      "primary": {
+        "enabled": {
+          "value": "{color.blue.60}",
+          "type": "color",
+          "description": "Theme accent color which is used for enabled, focused and selected states for actions"
+        },
+        "hover": {
+          "value": "{color.blue.40}",
+          "type": "color",
+          "description": "Used for hover states of primary actions"
+        },
+        "pressed": {
+          "value": "{color.blue.90}",
+          "type": "color",
+          "description": "Used for pressed states of primary actions"
+        },
+        "disabled": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "Used for disabled states of primary actions"
+        }
+      },
+      "danger": {
+        "enabled": {
+          "value": "{color.red.60}",
+          "type": "color",
+          "description": "Used for enabled, focused and selected states of danger actions"
+        },
+        "hover": {
+          "value": "{color.red.40}",
+          "type": "color",
+          "description": "Used for hover states of danger actions"
+        },
+        "pressed": {
+          "value": "{color.red.70}",
+          "type": "color",
+          "description": "Used for pressed states of danger actions"
+        },
+        "disabled": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "Used for disabled states of danger actions"
+        }
+      },
+      "tertiary": {
+        "hover": {
+          "value": "rgba({color.grey.95}, 0.08)",
+          "type": "color",
+          "description": "Used for hover states of tertiary actions such as icon buttons"
+        },
+        "pressed": {
+          "value": "rgba({color.grey.95}, 0.16)",
+          "type": "color",
+          "description": "Used for pressed states of tertiary actions such as icon buttons"
+        }
+      },
+      "visited": {
+        "enabled": {
+          "value": "{color.purple.50}",
+          "type": "color",
+          "description": "Used for visited states of action items such as visited links"
+        },
+        "hover": {
+          "value": "{color.purple.40}",
+          "type": "color",
+          "description": "Used for hover states of visited action items to signify interactivity"
+        }
+      },
+      "secondary": {
+        "enabled": {
+          "value": "rgba({color.blue.60}, 0.08)",
+          "type": "color",
+          "description": "Transparent accent color which is used for enabled states of secondary actions"
+        },
+        "hover": {
+          "value": "rgba({color.blue.60}, 0.24)",
+          "type": "color",
+          "description": "Transparent accent color which is used for hover states of secondary actions"
+        },
+        "pressed": {
+          "value": "rgba({color.blue.60}, 0.32)",
+          "type": "color",
+          "description": "Transparent accent color which is used for pressed states of secondary actions"
+        },
+        "disabled": {
+          "value": "rgba({color.grey.95}, 0.08)",
+          "type": "color",
+          "description": "Transparent color style which is used for disabled states of secondary actions"
+        }
+      },
+      "success": {
+        "enabled": {
+          "value": "{color.green.60}",
+          "type": "color",
+          "description": "Color token used for enabled states of success indicating actions"
+        },
+        "hover": {
+          "value": "{color.green.40}",
+          "type": "color",
+          "description": "Color token used for hover states of success indicating actions"
+        },
+        "pressed": {
+          "value": "{color.green.90}",
+          "type": "color",
+          "description": "Color token used for pressed states of success indicating actions"
+        },
+        "disabled": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "Used for disabled states of primary actions"
+        }
+      },
+      "inverse": {
+        "enabled": {
+          "value": "{color.grey.00}",
+          "type": "color",
+          "description": "Color token used on the enabled states of inverted action buttons"
+        },
+        "hover": {
+          "value": "{color.grey.01}",
+          "type": "color",
+          "description": "Color token used on the hover states of inverted action buttons"
+        },
+        "pressed": {
+          "value": "{color.grey.05}",
+          "type": "color",
+          "description": "Color token used on the pressed states of inverted action buttons"
+        },
+        "disabled": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "Color token used on the disabled states of inverted action buttons"
+        }
+      }
+    }
+  },
+  "switch": {
+    "color": {
+      "active": {
+        "disabled": {
+          "value": "{color.blue.10}",
+          "type": "color",
+          "description": "This token is specifically for the active, disabled state of the switch component"
+        },
+        "hover": {
+          "value": "{color.blue.40}",
+          "type": "color",
+          "description": "This token is specifically for the active, hover state of the switch component"
+        },
+        "enabled": {
+          "value": "{color.blue.60}",
+          "type": "color",
+          "description": "This token is specifically for the active, enabled state of the switch component"
+        }
+      },
+      "inactive": {
+        "enabled": {
+          "value": "{color.grey.50}",
+          "type": "color",
+          "description": "This token is specifically for the inactive, enabled state of the switch component"
+        },
+        "hover": {
+          "value": "{color.grey.30}",
+          "type": "color",
+          "description": "This token is specifically for the inactive, hover state of the switch component"
+        },
+        "disabled": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "This token is specifically for the inactive, disabled state of the switch component"
+        }
+      }
+    }
+  },
+  "base": {
+    "color": {
+      "flat": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "The base color for default page backgrounds and card surface of the light modes"
+      },
+      "lowest": {
+        "value": "{color.grey.01}",
+        "type": "color",
+        "description": "The base color used to slightly seperate a section or element"
+      },
+      "low": {
+        "value": "{color.grey.05}",
+        "type": "color",
+        "description": "The base color used for differentiating a surface from the flat page level"
+      },
+      "normal": {
+        "value": "{color.grey.10}",
+        "type": "color",
+        "description": "The base color used for achieving a strong contrast between the flat page level"
+      },
+      "high": {
+        "value": "{color.grey.50}",
+        "type": "color",
+        "description": "The base color for indicating a state change in the surface such as hovered elements"
+      },
+      "highest": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "The base color used in the background of elements like a tooltip to make them pop"
+      },
+      "overlay": {
+        "value": "rgba({color.grey.50}, 0.5)",
+        "type": "color",
+        "description": "This color is used for transparent background of overlay components such as dialogs and side sheets"
+      }
+    },
+    "gradient": {
+      "fadeout": {
+        "value": "linear-gradient(180deg, rgba({color.grey.00}, 1) 0%, rgba({color.grey.00}, 0.0) 100%)",
+        "type": "color",
+        "description": "The gradient color used to communicate a fade out effect"
+      },
+      "fadein": {
+        "value": "linear-gradient(180deg, rgba({color.grey.00}, 0.0) 0%, rgba({color.grey.00}, 1) 100%)",
+        "type": "color",
+        "description": "The gradient color used to communicate a fade in effect"
+      }
+    },
+    "elevation": {
+      "low": {
+        "value": "{elevation.low.onlight}",
+        "type": "boxShadow",
+        "description": "Default elevation for interactive containers"
+      },
+      "high": {
+        "value": "{elevation.high.onlight}",
+        "type": "boxShadow",
+        "description": "Elevation for floating elements"
+      },
+      "highest": {
+        "value": "{elevation.highest.onlight}",
+        "type": "boxShadow",
+        "description": "Elevation for overlay elements"
+      }
+    },
+    "focus": {
+      "default": {
+        "value": {
+          "borderWidth": "{border.width.thin}",
+          "borderColor": "{action.color.primary.enabled}",
+          "boxShadow": "{focus.enabled}"
+        },
+        "type": "composition",
+        "description": "Default focus style for interactive containers"
+      },
+      "default-inverse": {
+        "value": {
+          "borderWidth": "{border.width.thin}",
+          "borderColor": "{border.color.inverse}",
+          "boxShadow": "{focus.enabled}"
+        },
+        "type": "composition",
+        "description": "Inverse focus style for interactive containers"
+      },
+      "danger": {
+        "value": {
+          "borderWidth": "{border.width.thin}",
+          "borderColor": "{action.color.danger.enabled}",
+          "boxShadow": "{focus.danger}"
+        },
+        "type": "composition",
+        "description": "Danger indicating focus style for interactive containers"
+      },
+      "danger-inverse": {
+        "value": {
+          "borderWidth": "{border.width.thin}",
+          "borderColor": "{border.color.inverse}",
+          "boxShadow": "{focus.danger}"
+        },
+        "type": "composition",
+        "description": "Danger indicating inverse focus style for interactive containers"
+      }
+    }
+  },
+  "icon": {
+    "color": {
+      "primary": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "Used for displaying prominent icons"
+      },
+      "secondary": {
+        "value": "{color.grey.60}",
+        "type": "color",
+        "description": "Used for displaying less prominent or supportive icons"
+      },
+      "disabled": {
+        "value": "{color.grey.30}",
+        "type": "color",
+        "description": "Used for displaying disabled icons"
+      },
+      "inverse": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "For icons over opposite-contrast backgrounds, such as over dark backgrounds"
+      },
+      "branded": {
+        "value": "{color.blue.60}",
+        "type": "color",
+        "description": "Theme accent color which is used for enabled and selected states of icons "
+      },
+      "onbranded": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for icons on surfaces using the theme accent color"
+      },
+      "danger": {
+        "value": "{color.red.60}",
+        "type": "color",
+        "description": "Used for icons which indicate danger or error"
+      },
+      "ondanger": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for the icons on surfaces which indicate danger or error"
+      },
+      "success": {
+        "value": "{color.green.80}",
+        "type": "color",
+        "description": "Used for icons which indicate a postive outcome or active status"
+      },
+      "onsuccess": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "Used for the icons on surfaces which indicate success"
+      },
+      "info": {
+        "value": "{color.blue.40}",
+        "type": "color",
+        "description": "Used for the icons which indicate informative status"
+      },
+      "oninfo": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for the icons on surfaces which indicate an informative status"
+      },
+      "onwarning": {
+        "value": "{color.grey.95}",
+        "type": "color",
+        "description": "Used for the icons on surfaces which indicate warning"
+      },
+      "onneutral": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for the icons on surfaces which indicate a neutral state"
+      }
+    }
+  },
+  "feedback": {
+    "color": {
+      "branded": {
+        "high": {
+          "value": "{color.blue.40}",
+          "type": "color",
+          "description": "Theme accent color which is used for more prominent generic feedback"
+        },
+        "low": {
+          "value": "{color.blue.10}",
+          "type": "color",
+          "description": "A theme accent color which is used for less prominent feedback"
+        }
+      },
+      "danger": {
+        "high": {
+          "value": "{color.red.50}",
+          "type": "color",
+          "description": "A prominent tone used for showing danger or error feedback "
+        },
+        "low": {
+          "value": "{color.red.10}",
+          "type": "color",
+          "description": "A subtle tone used for showing danger or error feedback "
+        }
+      },
+      "success": {
+        "high": {
+          "value": "{color.green.50}",
+          "type": "color",
+          "description": "A prominent tone used for showing success or positive feedback"
+        },
+        "low": {
+          "value": "{color.green.10}",
+          "type": "color",
+          "description": "A subtle tone used for showing success or positive feedback "
+        }
+      },
+      "info": {
+        "high": {
+          "value": "{color.blue.40}",
+          "type": "color",
+          "description": "A prominent tone used for showing informative feedback "
+        },
+        "low": {
+          "value": "{color.blue.10}",
+          "type": "color",
+          "description": "A subtle tone used for showing informative feedback"
+        }
+      },
+      "warning": {
+        "high": {
+          "value": "{color.yellow.60}",
+          "type": "color",
+          "description": "A prominent tone used for showing warning feedback"
+        },
+        "low": {
+          "value": "{color.yellow.10}",
+          "type": "color",
+          "description": "A subtle tone used for showing warning feedback"
+        }
+      },
+      "disabled": {
+        "high": {
+          "value": "{color.grey.60}",
+          "type": "color",
+          "description": "A prominent tone used for disabled states of informative elements"
+        },
+        "low": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "A subtle tone used for disabled states of informative elements"
+        }
+      }
+    }
+  },
+  "border": {
+    "color": {
+      "normal": {
+        "value": "{color.grey.05}",
+        "type": "color",
+        "description": "Used for less prominent borders"
+      },
+      "high": {
+        "value": "{color.grey.10}",
+        "type": "color",
+        "description": "Used for showing strong and more contrasting borders"
+      },
+      "inverse": {
+        "value": "{color.grey.00}",
+        "type": "color",
+        "description": "Used for inverse prominent borders"
+      }
+    }
+  },
+  "illustration": {
+    "color": {
+      "primary": {
+        "value": "{color.blue.40}",
+        "type": "color",
+        "description": "Theme accent color which is used as a primary color in illustrations"
+      },
+      "secondary": {
+        "value": "{color.grey.60}",
+        "type": "color",
+        "description": "Used for secondary or supportive colors of illustrations"
+      },
+      "danger": {
+        "value": "{color.red.60}",
+        "type": "color",
+        "description": "Used instead of a theme accent color when a danger or error state has to be indicated"
+      }
+    }
+  },
+  "motion": {
+    "color": {
+      "primary": {
+        "branded": {
+          "value": "{color.blue.60}",
+          "type": "color",
+          "description": "Theme accent color used for highlighting the most important shape in the motion graphic"
+        },
+        "onbranded": {
+          "value": "{color.grey.00}",
+          "type": "color",
+          "description": "The color tone used to achieve an inverted look"
+        }
+      }
+    }
+  },
+  "loadingspinner": {
+    "color": {
+      "secondary": {
+        "branded": {
+          "value": "rgba({color.grey.95}, 0.16)",
+          "type": "color",
+          "description": "The background surface of loading spinner which adapts to various surfaces"
+        },
+        "onbranded": {
+          "value": "rgba({color.grey.95}, 0.16)",
+          "type": "color",
+          "description": "The background surface of loading spinner which adapts to various surfaces"
+        }
+      }
+    }
+  },
+  "focus": {
+    "enabled": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "4",
+        "color": "rgba({action.color.primary.enabled}, 0.4)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "This token is a building block and should not be used as standalone. In order to indicate the focused elements, please check the focus tokens under composition tokens group"
+    },
+    "danger": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "4",
+        "color": "rgba({action.color.danger.enabled}, 0.4)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "This token is a building block and should not be used as standalone. In order to indicate the focused elements, please check the focus tokens under composition tokens group"
+    }
+  },
+  "control": {
+    "color": {
+      "primary": {
+        "enabled": {
+          "value": "{color.grey.20}",
+          "type": "color",
+          "description": "Used for enabled states of primary controls"
+        },
+        "hover": {
+          "value": "{color.grey.30}",
+          "type": "color",
+          "description": "Used for hover states of primary controls"
+        },
+        "selected": {
+          "value": "{color.blue.60}",
+          "type": "color",
+          "description": "Used for active or selected states of primary controls"
+        },
+        "selected-hover": {
+          "value": "{color.blue.40}",
+          "type": "color",
+          "description": "For hover states of selected form controls "
+        },
+        "disabled": {
+          "value": "{color.grey.10}",
+          "type": "color",
+          "description": "Used for disabled states of primary controls"
+        }
+      },
+      "secondary": {
+        "enabled": {
+          "value": "rgba({color.grey.00}, 0.01)",
+          "type": "color",
+          "description": "Used as a surface color on the enabled states of secondary controls such as dropdowns, text inputs and other form elements"
+        },
+        "hover": {
+          "value": "rgba({control.color.primary.selected}, 0.04)",
+          "type": "color",
+          "description": "Used for hover states of secondary controls such as hovered list surfaces"
+        },
+        "selected": {
+          "value": "rgba({control.color.primary.selected}, 0.08)",
+          "type": "color",
+          "description": "Used for pressed or selected states of secondary controls"
+        },
+        "selected-hover": {
+          "value": "rgba({control.color.primary.selected}, 0.12)",
+          "type": "color",
+          "description": "Used for hover states of selected secondary controls"
+        },
+        "disabled": {
+          "value": "rgba( {color.grey.95}, 0.08)",
+          "type": "color",
+          "description": "Used for disabled states of secondary controls"
+        }
+      },
+      "danger": {
+        "enabled": {
+          "value": "{color.red.60}",
+          "type": "color",
+          "description": "Used as a border style on the enabled states of the controls to indicate an error"
+        }
+      }
+    }
+  },
+  "label": {
+    "color": {
+      "enabled": {
+        "value": "linear-gradient(180deg, #ffffff10 0%, #ffffff 50%, #ffffff00 100%)",
+        "type": "color",
+        "description": "Background color for the enabled states of form fields and dropdowns"
+      },
+      "focused": {
+        "value": "linear-gradient(180deg, #ffffff10 0%, #ffffff 5%, #ffffff 60%, #ffffff00 100%)",
+        "type": "color",
+        "description": "Background color for the focused states of form fields and dropdowns"
+      },
+      "disabled": {
+        "value": "linear-gradient(180deg, #ffffff10 0%, #E8E8E8 50%, #ffffff00 100%)",
+        "type": "color",
+        "description": "Background color for the disabled states of form fields and dropdowns"
+      }
+    }
+  },
+  "skeleton": {
+    "color": {
+      "animation": {
+        "value": "linear-gradient(-90deg, #ffffff00 0%, #ffffffd6 50%, #ffffff00 100%)",
+        "type": "color",
+        "description": "Used for animation layer of the skeletons"
+      }
+    }
+  }
+}
