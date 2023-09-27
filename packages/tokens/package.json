@@ -1,0 +1,18 @@
+{
+  "name": "@deliveryhero/cape-tokens",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "style-dictionary build"
+  },
+  "devDependencies": {
+    "style-dictionary": "3.8.0"
+  }
+}
